@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4625BF841805D7D900C59097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF831805D7D900C59097 /* Foundation.framework */; };
+		4625BF891805D7D900C59097 /* ADURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4625BF881805D7D900C59097 /* ADURL.h */; };
+		4625BF8B1805D7D900C59097 /* ADURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625BF8A1805D7D900C59097 /* ADURL.m */; };
+		4625BF921805D7DA00C59097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF911805D7DA00C59097 /* XCTest.framework */; };
+		4625BF931805D7DA00C59097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF831805D7D900C59097 /* Foundation.framework */; };
+		4625BF951805D7DA00C59097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF941805D7DA00C59097 /* UIKit.framework */; };
+		4625BF981805D7DA00C59097 /* libADURL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF801805D7D900C59097 /* libADURL.a */; };
+		4625BF9E1805D7DA00C59097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4625BF9C1805D7DA00C59097 /* InfoPlist.strings */; };
+		4625BFA01805D7DA00C59097 /* ADURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625BF9F1805D7DA00C59097 /* ADURLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4625BF961805D7DA00C59097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4625BF781805D7D900C59097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4625BF7F1805D7D900C59097;
+			remoteInfo = ADURL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4625BF7E1805D7D900C59097 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4625BF891805D7D900C59097 /* ADURL.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4625BF801805D7D900C59097 /* libADURL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libADURL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4625BF831805D7D900C59097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4625BF871805D7D900C59097 /* ADURL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADURL-Prefix.pch"; sourceTree = "<group>"; };
+		4625BF881805D7D900C59097 /* ADURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADURL.h; sourceTree = "<group>"; };
+		4625BF8A1805D7D900C59097 /* ADURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADURL.m; sourceTree = "<group>"; };
+		4625BF901805D7DA00C59097 /* ADURLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADURLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4625BF911805D7DA00C59097 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4625BF941805D7DA00C59097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4625BF9B1805D7DA00C59097 /* ADURLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADURLTests-Info.plist"; sourceTree = "<group>"; };
+		4625BF9D1805D7DA00C59097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4625BF9F1805D7DA00C59097 /* ADURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADURLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4625BF7D1805D7D900C59097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625BF841805D7D900C59097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4625BF8D1805D7DA00C59097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625BF981805D7DA00C59097 /* libADURL.a in Frameworks */,
+				4625BF921805D7DA00C59097 /* XCTest.framework in Frameworks */,
+				4625BF951805D7DA00C59097 /* UIKit.framework in Frameworks */,
+				4625BF931805D7DA00C59097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4625BF771805D7D900C59097 = {
+			isa = PBXGroup;
+			children = (
+				4625BF851805D7D900C59097 /* ADURL */,
+				4625BF991805D7DA00C59097 /* ADURLTests */,
+				4625BF821805D7D900C59097 /* Frameworks */,
+				4625BF811805D7D900C59097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4625BF811805D7D900C59097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF801805D7D900C59097 /* libADURL.a */,
+				4625BF901805D7DA00C59097 /* ADURLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4625BF821805D7D900C59097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF831805D7D900C59097 /* Foundation.framework */,
+				4625BF911805D7DA00C59097 /* XCTest.framework */,
+				4625BF941805D7DA00C59097 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4625BF851805D7D900C59097 /* ADURL */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF881805D7D900C59097 /* ADURL.h */,
+				4625BF8A1805D7D900C59097 /* ADURL.m */,
+				4625BF861805D7D900C59097 /* Supporting Files */,
+			);
+			path = ADURL;
+			sourceTree = "<group>";
+		};
+		4625BF861805D7D900C59097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF871805D7D900C59097 /* ADURL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4625BF991805D7DA00C59097 /* ADURLTests */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF9F1805D7DA00C59097 /* ADURLTests.m */,
+				4625BF9A1805D7DA00C59097 /* Supporting Files */,
+			);
+			path = ADURLTests;
+			sourceTree = "<group>";
+		};
+		4625BF9A1805D7DA00C59097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4625BF9B1805D7DA00C59097 /* ADURLTests-Info.plist */,
+				4625BF9C1805D7DA00C59097 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4625BF7F1805D7D900C59097 /* ADURL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4625BFA31805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURL" */;
+			buildPhases = (
+				4625BF7C1805D7D900C59097 /* Sources */,
+				4625BF7D1805D7D900C59097 /* Frameworks */,
+				4625BF7E1805D7D900C59097 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADURL;
+			productName = ADURL;
+			productReference = 4625BF801805D7D900C59097 /* libADURL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4625BF8F1805D7DA00C59097 /* ADURLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4625BFA61805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURLTests" */;
+			buildPhases = (
+				4625BF8C1805D7DA00C59097 /* Sources */,
+				4625BF8D1805D7DA00C59097 /* Frameworks */,
+				4625BF8E1805D7DA00C59097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4625BF971805D7DA00C59097 /* PBXTargetDependency */,
+			);
+			name = ADURLTests;
+			productName = ADURLTests;
+			productReference = 4625BF901805D7DA00C59097 /* ADURLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4625BF781805D7D900C59097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AgileMD;
+			};
+			buildConfigurationList = 4625BF7B1805D7D900C59097 /* Build configuration list for PBXProject "ADURL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4625BF771805D7D900C59097;
+			productRefGroup = 4625BF811805D7D900C59097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4625BF7F1805D7D900C59097 /* ADURL */,
+				4625BF8F1805D7DA00C59097 /* ADURLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4625BF8E1805D7DA00C59097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625BF9E1805D7DA00C59097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4625BF7C1805D7D900C59097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625BF8B1805D7D900C59097 /* ADURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4625BF8C1805D7DA00C59097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625BFA01805D7DA00C59097 /* ADURLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4625BF971805D7DA00C59097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4625BF7F1805D7D900C59097 /* ADURL */;
+			targetProxy = 4625BF961805D7DA00C59097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4625BF9C1805D7DA00C59097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4625BF9D1805D7DA00C59097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4625BFA11805D7DA00C59097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4625BFA21805D7DA00C59097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4625BFA41805D7DA00C59097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ADURL.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADURL/ADURL-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4625BFA51805D7DA00C59097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ADURL.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADURL/ADURL-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4625BFA71805D7DA00C59097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADURL/ADURL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ADURLTests/ADURLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4625BFA81805D7DA00C59097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADURL/ADURL-Prefix.pch";
+				INFOPLIST_FILE = "ADURLTests/ADURLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4625BF7B1805D7D900C59097 /* Build configuration list for PBXProject "ADURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4625BFA11805D7DA00C59097 /* Debug */,
+				4625BFA21805D7DA00C59097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4625BFA31805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4625BFA41805D7DA00C59097 /* Debug */,
+				4625BFA51805D7DA00C59097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4625BFA61805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4625BFA71805D7DA00C59097 /* Debug */,
+				4625BFA81805D7DA00C59097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4625BF781805D7D900C59097 /* Project object */;
+}
