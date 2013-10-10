@@ -12,10 +12,10 @@
 		4625BF8B1805D7D900C59097 /* ADURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625BF8A1805D7D900C59097 /* ADURL.m */; };
 		4625BF921805D7DA00C59097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF911805D7DA00C59097 /* XCTest.framework */; };
 		4625BF931805D7DA00C59097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF831805D7D900C59097 /* Foundation.framework */; };
-		4625BF951805D7DA00C59097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF941805D7DA00C59097 /* UIKit.framework */; };
 		4625BF981805D7DA00C59097 /* libADURL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625BF801805D7D900C59097 /* libADURL.a */; };
 		4625BF9E1805D7DA00C59097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4625BF9C1805D7DA00C59097 /* InfoPlist.strings */; };
 		4625BFA01805D7DA00C59097 /* ADURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625BF9F1805D7DA00C59097 /* ADURLTests.m */; };
+		AE7D9454EA6A46308F84ED9D /* libPods-ADURLTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E686AC6EC876496194FCE816 /* libPods-ADURLTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		183C5E3EAAFD48388BBEAC9B /* Pods-ADURLTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADURLTests.xcconfig"; path = "Pods/Pods-ADURLTests.xcconfig"; sourceTree = "<group>"; };
 		4625BF801805D7D900C59097 /* libADURL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libADURL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4625BF831805D7D900C59097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4625BF871805D7D900C59097 /* ADURL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADURL-Prefix.pch"; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		4625BF9B1805D7DA00C59097 /* ADURLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADURLTests-Info.plist"; sourceTree = "<group>"; };
 		4625BF9D1805D7DA00C59097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4625BF9F1805D7DA00C59097 /* ADURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADURLTests.m; sourceTree = "<group>"; };
+		E686AC6EC876496194FCE816 /* libPods-ADURLTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADURLTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +72,8 @@
 			files = (
 				4625BF981805D7DA00C59097 /* libADURL.a in Frameworks */,
 				4625BF921805D7DA00C59097 /* XCTest.framework in Frameworks */,
-				4625BF951805D7DA00C59097 /* UIKit.framework in Frameworks */,
 				4625BF931805D7DA00C59097 /* Foundation.framework in Frameworks */,
+				AE7D9454EA6A46308F84ED9D /* libPods-ADURLTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,7 @@
 				4625BF991805D7DA00C59097 /* ADURLTests */,
 				4625BF821805D7D900C59097 /* Frameworks */,
 				4625BF811805D7D900C59097 /* Products */,
+				183C5E3EAAFD48388BBEAC9B /* Pods-ADURLTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +106,7 @@
 				4625BF831805D7D900C59097 /* Foundation.framework */,
 				4625BF911805D7DA00C59097 /* XCTest.framework */,
 				4625BF941805D7DA00C59097 /* UIKit.framework */,
+				E686AC6EC876496194FCE816 /* libPods-ADURLTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4625BFA61805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURLTests" */;
 			buildPhases = (
+				1838278B6C6C405FADA7D167 /* Check Pods Manifest.lock */,
 				4625BF8C1805D7DA00C59097 /* Sources */,
 				4625BF8D1805D7DA00C59097 /* Frameworks */,
 				4625BF8E1805D7DA00C59097 /* Resources */,
+				F6014D3202DE4C47A27BD8ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +224,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1838278B6C6C405FADA7D167 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6014D3202DE4C47A27BD8ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ADURLTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4625BF7C1805D7D900C59097 /* Sources */ = {
@@ -354,6 +393,7 @@
 		};
 		4625BFA71805D7DA00C59097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183C5E3EAAFD48388BBEAC9B /* Pods-ADURLTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,6 +415,7 @@
 		};
 		4625BFA81805D7DA00C59097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183C5E3EAAFD48388BBEAC9B /* Pods-ADURLTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,6 +450,7 @@
 				4625BFA51805D7DA00C59097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4625BFA61805D7DA00C59097 /* Build configuration list for PBXNativeTarget "ADURLTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +459,7 @@
 				4625BFA81805D7DA00C59097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
