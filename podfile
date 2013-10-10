@@ -1,0 +1,4 @@
+target :ADURLTests do
+  pod 'Kiwi/XCTest', '2.2.2'
+end
+
