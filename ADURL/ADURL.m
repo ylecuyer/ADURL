@@ -72,7 +72,7 @@
 
 - (NSString *) host{
     if (_port) {
-        return [NSString stringWithFormat:@"%@:%d", _hostname, _port];
+        return [NSString stringWithFormat:@"%@:%ld", _hostname, (long)_port];
     } else {
         return _hostname;
     }
