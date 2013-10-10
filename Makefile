@@ -10,3 +10,4 @@ test: ADURL.xcworkspace
 clean:
 	rm -rf ADURL.xcworkspace
 	rm -rf Pods
+	rm -rf build
