@@ -15,31 +15,31 @@
  * lowercased.
  * Example: 'http://user:pass@host.com:8080/p/a/t/h?query=string#hash'
  */
-@property (nonatomic) NSString * href;
+@property (nonatomic, strong) NSString * href;
 
 /**
  * The request protocol, lowercased.
  * Example: 'http:'
  */
-@property (nonatomic) NSString * protocol;
+@property (nonatomic, strong) NSString * protocol;
 
 /**
  * The authentication information portion of a URL.
  * Example: 'user:pass'
  */
-@property (nonatomic) NSString * auth;
+@property (nonatomic, strong) NSString * auth;
 
 /**
  * The full lowercased host portion of the URL, including port information.
  * Example: 'host.com:8080'
  */
-@property (nonatomic) NSString * host;
+@property (nonatomic, strong) NSString * host;
 
 /**
  * Just the lowercased hostname portion of the host.
  * Example: 'host.com'
  */
-@property (nonatomic) NSString * hostname;
+@property (nonatomic, strong) NSString * hostname;
 
 /**
  * The port number portion of the host.
@@ -51,33 +51,33 @@
  * Concatenation of pathname and search.
  * Example: '/p/a/t/h?query=string'
  */
-@property (nonatomic) NSString * path;
+@property (nonatomic, strong) NSString * path;
 
 /**
  * The path section of the URL, that comes after the host and before the query,
  * including the initial slash if present.
  * Example: '/p/a/t/h'
  */
-@property (nonatomic) NSString * pathname;
+@property (nonatomic, strong) NSString * pathname;
 
 /**
  * The 'query string' portion of the URL, including the leading question mark.
  * Example: '?query=string'
  */
-@property (nonatomic) NSString * search;
+@property (nonatomic, strong) NSString * search;
 
 
 /**
  * The querystring as a dictionary
  * Example: @{@"query": @"string"}
  */
-@property (nonatomic, readonly) NSMutableDictionary * query;
+@property (nonatomic, readonly, strong) NSMutableDictionary * query;
 
 /**
  * The 'fragment' portion of the URL including the pound-sign.
  * Example: '#hash'
  */
-@property (nonatomic) NSString * hash;
+@property (nonatomic, strong) NSString * hash;
 
 + (ADURL *) parse: (NSString *) urlStr;
 + (NSString *) encodeURIcomponent: (NSString *) str;
