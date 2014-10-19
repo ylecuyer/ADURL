@@ -19,6 +19,7 @@
 @synthesize port=_port;
 @synthesize pathname=_pathname;
 @synthesize query=_query;
+@synthesize hash=_hash
 
 + (ADURL *) parse:(NSString *)urlStr{
     ADURL *url = [ADURL new];
